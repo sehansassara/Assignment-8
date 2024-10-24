@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.queue-container {
+    position: relative;
+    width: 50%;
+    max-width: 900px;
+    margin-left: -150px;
+}
+
+.title {
+    font-size: 36px;
+    color: #e4007c;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.queue {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    margin-bottom: 60px;
+}
+
+.person {
+    width: 100px;
+    margin: 0 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+
+}
+
+.person img {
+    width: 100%;
+    height: auto;
+}
+
+.letter {
+    font-size: 36px;
+    color: #000000;
+    margin-top: -100px;
+    margin-left: 130px;
+    font-weight: bold;
+}
+
+.house {
+    position: absolute;
+    left: 55vw;
+    width: 300px;
+    height: 300px;
+    top: -90px;
+}
+
+.controls {
+    text-align: center;
+    margin-top: 30px;
+}
+
+button {
+    padding: 12px 25px;
+    margin: 5px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
